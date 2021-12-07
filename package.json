@@ -42,12 +42,14 @@
     "react": "^16.12.0",
     "react-calendly": "^2.0.2",
     "react-chartjs-2": "^3.0.3",
+    "react-debounce-input": "^3.2.5",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
     "react-loadable": "^5.5.0",
     "react-markdown": "^5.0.3",
     "react-oembed-container": "^1.0.0",
+    "react-share": "^4.4.0",
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
