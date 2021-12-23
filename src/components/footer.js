@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="flex flex-col">
           <div className=" flex justify-center">
             <Link to="/">
-              <div className="flex flex-col sm:flex-row items-center gap-5 sm:gap-3 mx-auto mt-5">
+              <div className="flex flex-col md:flex-row items-center gap-5 sm:gap-3 mx-auto mt-5 px-5">
                 <StaticImage
                   src="../images/CCLogo.png"
                   alt="Workflow"
@@ -32,7 +32,7 @@ export default function Footer() {
               </div>
             </Link>
           </div>
-          <div className="flex px-3 sm:mx-auto sm:px-0 my-5 justify-center flex-wrap">
+          <div className="flex px-5 sm:mx-auto sm:px-0 my-5 justify-center flex-wrap">
             <Link
               to="/"
               className="top-nav text-sm hover:bg-yellow-200  px-3 py-2 rounded-md text-sm font-medium"
@@ -160,10 +160,18 @@ export default function Footer() {
               <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
             </svg>
           </a>
+          <a
+            href="https://tidal.com/mix/0105d4b80651774ef38931747c080a"
+            rel="noopener"
+            aria-label="tidal"
+            target="_blank"
+          >
+            <img width="25"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsOWbyrY238QsMsODdOGz0Tx0Ij9J59WZtDz7lvrUtirWtlkEEf6ZZfHYfxmXOYZQ2keA&usqp=CAU" alt="" />
+          </a>
         </div>
       </div>
 
-      <div className="container px-3 sm:mx-auto sm:px-0 text-center small-text mt-5">
+      <div className="container px-5 sm:mx-auto text-center small-text mt-5">
         <p>
           We are committed to minimising the amount of data we collect about our
           visitors and subscribers. See our{" "}
